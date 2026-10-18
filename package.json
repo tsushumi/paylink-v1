@@ -1,0 +1,11 @@
+{
+  "name": "paylink",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PayLink v1 - M-Pesa payment links (single-service deploy: Express serves the built React app)",
+  "scripts": {
+    "build": "npm --prefix client install && npm --prefix client run build && npm --prefix server install",
+    "start": "npm --prefix server run start:prod",
+    "test": "npm --prefix server test"
+  }
+}
